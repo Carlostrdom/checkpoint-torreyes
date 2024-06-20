@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.header .footer
+{
+    min-height: 50vh;
+    display:flex;
+
+}
+
+header{
+    background-image: url('./images/image-2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 30vh;
+    flex-direction: column;
+    display: flex;
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    padding: 10px 20px; }
+
+.nav-links {
+    display: flex;
+    gap: 20px; 
+}
+
+h1 span {
+    color: red;
+}
+.navbarA {
+    color: white;
+    text-decoration: none;
+}
+
+.navbarA:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: white;
+}
+main{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    gap: 10px
+    ;
+}
+.title h2{
+    padding: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+
+.sectionALP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+.sectionA {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    gap: 300px
+    ;
+
+}
+
+
+
+.sectionA p{
+    padding: 30px;
+    
+}
+.sectionA img{
+    width: 90%;
+    height: 200px;
+}
+
+.sectionA ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    border-radius: 5px;
+    width: 500px;
+    height: 200PX;
+    gap: 10px;
+}
+
+
+table {
+    min-height: 10%;    
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid black;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+table thead tr:first-child th {
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.footer-content p span {
+    color: red;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+}
+
+.containerFoot {
+    border: none;
+    padding: 0;
+}
+
+
