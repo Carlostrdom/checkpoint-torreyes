@@ -42,6 +42,8 @@ header{
 h1 span {
     color: red;
 }
+
+
 .navbarA {
     color: white;
     text-decoration: none;
@@ -74,6 +76,9 @@ main{
     padding: 10px;
     width: 100%;
     background-color: gray;
+}
+.title h2 span {
+    color: red;
 }
 
 
